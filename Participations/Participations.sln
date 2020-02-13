@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) WPF - Classes", "(P) WPF - Classes\(P) WPF - Classes.csproj", "{F66DC4C3-68F7-406E-9E01-F181C5820F9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) JSON", "(P) JSON\(P) JSON.csproj", "{D088C532-D7EC-450B-9A9E-18B2359FE307}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F66DC4C3-68F7-406E-9E01-F181C5820F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F66DC4C3-68F7-406E-9E01-F181C5820F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F66DC4C3-68F7-406E-9E01-F181C5820F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D088C532-D7EC-450B-9A9E-18B2359FE307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D088C532-D7EC-450B-9A9E-18B2359FE307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D088C532-D7EC-450B-9A9E-18B2359FE307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D088C532-D7EC-450B-9A9E-18B2359FE307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

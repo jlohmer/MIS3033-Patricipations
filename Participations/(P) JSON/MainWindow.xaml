@@ -1,0 +1,16 @@
+﻿<Window x:Class="_P__JSON.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_P__JSON"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lst_Pokemon" HorizontalAlignment="Left" Height="186" Margin="59,72,0,0" VerticalAlignment="Top" Width="195"/>
+        <Image x:Name="img_Pokemon" HorizontalAlignment="Left" Height="186" Margin="505,72,0,0" VerticalAlignment="Top" Width="170"/>
+        <ListBox x:Name="lst_pokieInfo" HorizontalAlignment="Left" Height="186" Margin="304,72,0,0" VerticalAlignment="Top" Width="169"/>
+        <Button x:Name="btn_doThings" Content="Select" HorizontalAlignment="Left" Margin="59,318,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
