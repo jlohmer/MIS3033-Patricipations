@@ -43,9 +43,18 @@ namespace _P__JSON
         }
         private void lst_Pokemon_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var selectedPokemonFromList = (pokieInfo)lst_Pokemon.SelectedItem;
+            AllPokemonResult selectedPokemonFromList = (AllPokemonResult)lst_Pokemon.SelectedItem;
 
-            img_Pokemon.Source = new BitmapImage(new Uri(selectedPokemonFromList.image));
+            AllPokemonAPI pokemonAPI;
+
+            using (var client = new HttpClient())
+            {
+                string json = client.GetStringAsync(path).Result;
+
+                pokemonAPI = JsonConvert.DeserializeObject<AllPokemonAPI>(json);
+            }
+
+            img_Pokemon.Source = new BitmapImage(new Uri(pokieInfo..fr));
         }
     }
 }

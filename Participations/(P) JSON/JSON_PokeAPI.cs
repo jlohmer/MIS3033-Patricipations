@@ -29,11 +29,16 @@ namespace _P__JSON
         public string name { get; set; }
         public int weight { get; set; }
         public int height { get; set; }
-        public string image { get; set; }
+        public Sprite image { get; set; }
 
         public override string ToString()
         {
             return image;
         }
+    }
+
+    public class Sprite
+    {
+        string front_default { get; set; }
     }
 }

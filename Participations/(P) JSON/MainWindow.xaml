@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="lst_Pokemon" HorizontalAlignment="Left" Height="186" Margin="59,72,0,0" VerticalAlignment="Top" Width="195"/>
+        <ListBox x:Name="lst_Pokemon" HorizontalAlignment="Left" Height="186" Margin="59,72,0,0" VerticalAlignment="Top" Width="195" SelectionChanged="lst_Pokemon_SelectionChanged_1"/>
         <Image x:Name="img_Pokemon" HorizontalAlignment="Left" Height="186" Margin="505,72,0,0" VerticalAlignment="Top" Width="170"/>
         <ListBox x:Name="lst_pokieInfo" HorizontalAlignment="Left" Height="186" Margin="304,72,0,0" VerticalAlignment="Top" Width="169"/>
         <Button x:Name="btn_doThings" Content="Select" HorizontalAlignment="Left" Margin="59,318,0,0" VerticalAlignment="Top" Width="75"/>
