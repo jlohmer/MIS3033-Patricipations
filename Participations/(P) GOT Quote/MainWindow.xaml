@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/episodes/1/game-of-thrones-1-1920x1080.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg"/>
+        </Grid.Background>
+        <Button x:Name="txt_getQuote" Content="Get Quote" HorizontalAlignment="Left" Margin="53,138,0,0" VerticalAlignment="Top" Width="115" Height="30" Click="txt_getQuote_Click"/>
+        <ListBox x:Name="lst_quotes" HorizontalAlignment="Left" Height="172" Margin="25,191,0,0" VerticalAlignment="Top" Width="182"/>
     </Grid>
 </Window>
