@@ -1,0 +1,31 @@
+﻿@model _P__Bootstrap_HTML_CSS.Models.DeveloperInformation
+
+@{
+    ViewBag.Title = "Devloper Information";
+}
+
+<h2>Developer Information</h2>
+
+<div>
+    <h4>DeveloperInformation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+
+    </dl>
+</div>
+
